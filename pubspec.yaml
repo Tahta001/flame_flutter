@@ -1,0 +1,29 @@
+name: dasar_flame
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flame: ^1.21.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/images/
+    # - assets/images/ships/spaceShips_001.png
+    - assets/images/ships/
+    - assets/images/bullets/
+    - assets/images/explosion/
+    - assets/images/items/
+    - assets/images/meteor/
+    - assets/images/parallax/
+  uses-material-design: true
